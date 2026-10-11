@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sikar ka sabse trusted home service platform. AC Repair, Electrician, Plumber, Refrigerator Repair aur bahut kuch. Call ya WhatsApp karein.">
+    <meta name="description" content="Sikar ka sabse trusted home service platform. AC Repair, Electrician, Plumber, Geyser, RO, Refrigerator, Washing Machine. Call ya WhatsApp karein.">
     <title>Sikar Home Services - Trusted Local Service Providers</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -24,24 +24,23 @@
                 <a href="#reviews">Reviews</a>
                 <a href="#contact">Contact</a>
             </nav>
-            <a href="https://wa.me/919521873011" class="btn-whatsapp-header" target="_blank">
+            <a href="https://wa.me/918529886750" class="btn-whatsapp-header" target="_blank">
                 <i class="fab fa-whatsapp"></i> WhatsApp Karein
             </a>
             <div class="hamburger" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
             </div>
         </div>
-        <!-- Mobile Menu -->
         <div class="mobile-menu" id="mobileMenu">
             <a href="#categories" onclick="toggleMenu()">Services</a>
             <a href="#how-it-works" onclick="toggleMenu()">Kaise Kaam Karta Hai</a>
             <a href="#reviews" onclick="toggleMenu()">Reviews</a>
             <a href="#contact" onclick="toggleMenu()">Contact</a>
-            <a href="https://wa.me/919521873011" target="_blank">WhatsApp Karein</a>
+            <a href="https://wa.me/918529886750" target="_blank">WhatsApp Karein</a>
         </div>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -50,81 +49,75 @@
                 <p>Sikar ke sabse trusted electricians, AC technicians, plumbers aur appliance repair experts — ek jagah pe. Fast service, reasonable rates, guaranteed quality.</p>
                 <div class="hero-buttons">
                     <a href="#categories" class="btn-primary">Service Dhundein</a>
-                    <a href="https://wa.me/919521873011" class="btn-whatsapp" target="_blank">
+                    <a href="https://wa.me/918529886750" class="btn-whatsapp" target="_blank">
                         <i class="fab fa-whatsapp"></i> WhatsApp Karein
                     </a>
                 </div>
                 <div class="hero-stats">
-                    <div class="stat">
-                        <strong>50+</strong>
-                        <span>Happy Customers</span>
-                    </div>
-                    <div class="stat">
-                        <strong>10+</strong>
-                        <span>Verified Providers</span>
-                    </div>
-                    <div class="stat">
-                        <strong>6+</strong>
-                        <span>Services</span>
-                    </div>
-                    <div class="stat">
-                        <strong>Same Day</strong>
-                        <span>Service</span>
-                    </div>
+                    <div class="stat"><strong>50+</strong><span>Happy Customers</span></div>
+                    <div class="stat"><strong>7+</strong><span>Services</span></div>
+                    <div class="stat"><strong>5+</strong><span>Verified Providers</span></div>
+                    <div class="stat"><strong>Same Day</strong><span>Service</span></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Categories Section -->
+    <!-- Categories -->
     <section class="categories" id="categories">
         <div class="container">
             <div class="section-header">
                 <h2>Kaunsi Service Chahiye?</h2>
-                <p>Category select karein aur directly provider se contact karein</p>
+                <p>Category select karein aur directly contact karein</p>
             </div>
             <div class="category-grid">
                 <div class="category-card" onclick="showProviders('ac-repair')">
-                    <div class="category-icon ac">❄️</div>
-                    <h3>AC Repair & Service</h3>
-                    <p>AC repair, gas refilling, servicing</p>
-                    <span class="provider-count">4 Providers</span>
+                    <div class="category-icon">❄️</div>
+                    <h3>AC Technician</h3>
+                    <p>Repair, gas filling, servicing</p>
+                    <span class="provider-count">Available</span>
                 </div>
                 <div class="category-card" onclick="showProviders('electrician')">
-                    <div class="category-icon elec">⚡</div>
+                    <div class="category-icon">⚡</div>
                     <h3>Electrician</h3>
                     <p>Wiring, fitting, electrical repairs</p>
-                    <span class="provider-count">5 Providers</span>
+                    <span class="provider-count">Available</span>
                 </div>
                 <div class="category-card" onclick="showProviders('plumber')">
-                    <div class="category-icon plumb">🔧</div>
+                    <div class="category-icon">🔧</div>
                     <h3>Plumber</h3>
                     <p>Pipe repair, fitting, leakage fix</p>
-                    <span class="provider-count">3 Providers</span>
+                    <span class="provider-count">Available</span>
                 </div>
                 <div class="category-card" onclick="showProviders('refrigerator')">
-                    <div class="category-icon fridge">🧊</div>
+                    <div class="category-icon">🧊</div>
                     <h3>Refrigerator Repair</h3>
-                    <p>Fridge cooling, compressor, gas</p>
-                    <span class="provider-count">4 Providers</span>
+                    <p>Cooling, compressor, gas refill</p>
+                    <span class="provider-count">Available</span>
                 </div>
-                <div class="category-card" onclick="showProviders('gas-stove')">
-                    <div class="category-icon gas">🔥</div>
-                    <h3>Gas Stove Repair</h3>
-                    <p>Burner repair, gas pipe, servicing</p>
-                    <span class="provider-count">3 Providers</span>
+                <div class="category-card" onclick="showProviders('geyser')">
+                    <div class="category-icon">🚿</div>
+                    <h3>Geyser Repair</h3>
+                    <p>Repair, servicing, installation</p>
+                    <span class="provider-count">Available</span>
                 </div>
                 <div class="category-card" onclick="showProviders('washing-machine')">
-                    <div class="category-icon wash">🫧</div>
+                    <div class="category-icon">🫧</div>
                     <h3>Washing Machine</h3>
                     <p>Repair, servicing, drum issues</p>
-                    <span class="provider-count">3 Providers</span>
+                    <span class="provider-count">Available</span>
+                </div>
+                <div class="category-card center-card" onclick="showProviders('ro-repair')">
+                    <div class="category-icon">💧</div>
+                    <h3>RO Repair</h3>
+                    <p>Filter change, repair, installation</p>
+                    <span class="provider-count">Available</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Providers Modal -->
+    <!-- Modal -->
     <div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
         <div class="modal" onclick="event.stopPropagation()">
             <div class="modal-header">
@@ -147,27 +140,27 @@
                     <div class="step-number">1</div>
                     <div class="step-icon">🔍</div>
                     <h3>Category Chunein</h3>
-                    <p>Apni zaroorat ke hisaab se service category select karein</p>
+                    <p>Apni zaroorat ke hisaab se service select karein</p>
                 </div>
                 <div class="step-arrow">→</div>
                 <div class="step">
                     <div class="step-number">2</div>
                     <div class="step-icon">📞</div>
-                    <h3>Provider Se Contact Karein</h3>
-                    <p>Provider ka profile dekhin aur seedha call ya WhatsApp karein</p>
+                    <h3>Call ya WhatsApp Karein</h3>
+                    <p>Hume contact karein — hum provider assign karenge</p>
                 </div>
                 <div class="step-arrow">→</div>
                 <div class="step">
                     <div class="step-number">3</div>
                     <div class="step-icon">✅</div>
                     <h3>Kaam Karwaein</h3>
-                    <p>Provider ghar aayega, kaam karega, aap review dein</p>
+                    <p>Provider ghar aayega, kaam karega, review dein</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Reviews Section -->
+    <!-- Reviews -->
     <section class="reviews" id="reviews">
         <div class="container">
             <div class="section-header">
@@ -177,82 +170,73 @@
             <div class="reviews-grid">
                 <div class="review-card">
                     <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p>"AC bahut kharab tha, 2 ghante mein theek ho gaya. Bahut acha service hai. Reasonable rate mein kaam kiya."</p>
+                    <p>"AC bahut kharab tha, 2 ghante mein theek ho gaya. Bahut acha service. Reasonable rate mein kaam kiya."</p>
                     <div class="reviewer">
                         <div class="reviewer-avatar">R</div>
-                        <div>
-                            <strong>Ramesh Kumar</strong>
-                            <span>Sikar, Rajasthan</span>
-                        </div>
+                        <div><strong>Ramesh Kumar</strong><span>Sikar, Rajasthan</span></div>
                     </div>
                 </div>
                 <div class="review-card">
                     <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p>"Ghar ki wiring kharab thi, bahut jaldi aa gaye aur sahi kar gaye. Trustworthy aur experienced hai."</p>
+                    <p>"Ghar ki wiring kharab thi, bahut jaldi aa gaye aur sahi kar gaye. Trustworthy aur experienced."</p>
                     <div class="reviewer">
                         <div class="reviewer-avatar">S</div>
-                        <div>
-                            <strong>Sunita Devi</strong>
-                            <span>Sikar, Rajasthan</span>
-                        </div>
+                        <div><strong>Sunita Devi</strong><span>Sikar, Rajasthan</span></div>
                     </div>
                 </div>
                 <div class="review-card">
                     <div class="stars">⭐⭐⭐⭐⭐</div>
-                    <p>"Fridge repair karwaya, genuine parts use kiye. Pehle wale mechanic ne 3000 maange the, inhoone 800 mein theek kar diya."</p>
+                    <p>"RO kharab tha, Ganesh bhai ne same day fix kar diya. Genuine parts use kiye. Bahut satisfied."</p>
                     <div class="reviewer">
                         <div class="reviewer-avatar">M</div>
-                        <div>
-                            <strong>Mohammad Aslam</strong>
-                            <span>Sikar, Rajasthan</span>
-                        </div>
+                        <div><strong>Mohammad Aslam</strong><span>Sikar, Rajasthan</span></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
+    <!-- CTA -->
     <section class="cta">
         <div class="container">
             <h2>Abhi Service Book Karein</h2>
-            <p>Same day service available hai — WhatsApp karein ya call karein</p>
+            <p>Same day service available — WhatsApp karein ya call karein</p>
             <div class="cta-buttons">
-                <a href="https://wa.me/919521873011" class="btn-whatsapp-large" target="_blank">
+                <a href="https://wa.me/918529886750" class="btn-whatsapp-large" target="_blank">
                     <i class="fab fa-whatsapp"></i> WhatsApp Karein
                 </a>
-                <a href="tel:+919521873011" class="btn-call-large">
+                <a href="tel:+918529886750" class="btn-call-large">
                     <i class="fas fa-phone"></i> Call Karein
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="section-header">
                 <h2>Contact Karein</h2>
-                <p>Koi bhi sawaal ho — hum yahan hain</p>
+                <p>Do numbers available hain — kisi pe bhi call karein</p>
             </div>
             <div class="contact-grid">
                 <div class="contact-card">
                     <i class="fab fa-whatsapp"></i>
                     <h3>WhatsApp</h3>
-                    <p>+91 95218 73011</p>
-                    <a href="https://wa.me/919521873011" target="_blank" class="contact-btn">Message Karein</a>
+                    <p>+91 85298 86750</p>
+                    <a href="https://wa.me/918529886750" target="_blank" class="contact-btn">Message Karein</a>
                 </div>
                 <div class="contact-card">
                     <i class="fas fa-phone"></i>
-                    <h3>Call Karein</h3>
-                    <p>+91 95218 73011</p>
-                    <a href="tel:+919521873011" class="contact-btn">Call Karein</a>
+                    <h3>Number 1</h3>
+                    <p>+91 85298 86750</p>
+                    <a href="tel:+918529886750" class="contact-btn">Call Karein</a>
                 </div>
                 <div class="contact-card">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <h3>Service Area</h3>
-                    <p>Sikar, Rajasthan</p>
-                    <span class="contact-btn" style="cursor:default;">Poora Sikar</span>
+                    <i class="fas fa-phone"></i>
+                    <h3>Number 2</h3>
+                    <p>+91 98287 66076</p>
+                    <a href="tel:+919828766076" class="contact-btn">Call Karein</a>
                 </div>
             </div>
         </div>
@@ -279,10 +263,16 @@
         </div>
     </footer>
 
-    <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/919521873011" class="floating-whatsapp" target="_blank">
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/918529886750" class="floating-whatsapp" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
+
+    <!-- Bottom Action Bar -->
+    <div class="bottom-bar">
+        <a href="tel:+918529886750" class="call-btn"><i class="fas fa-phone"></i> Call Karein</a>
+        <a href="https://wa.me/918529886750" class="wa-btn" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+    </div>
 
     <script src="js/providers.js"></script>
     <script src="js/main.js"></script>
