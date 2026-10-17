@@ -3,7 +3,7 @@
 // Dono numbers sab providers pe hain
 // =============================================
 
-const phone1 = "8529886750";
+const phone1 = "9521873011";
 const phone2 = "9828766076";
 
 const providers = {

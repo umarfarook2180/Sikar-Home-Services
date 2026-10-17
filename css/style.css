@@ -473,9 +473,10 @@ body {
 .footer-bottom { text-align: center; padding-top: 16px; color: #666; font-size: 12px; }
 
 /* ===== FLOATING BOTTOM BAR ===== */
+/* bottom: 50px — Netlify badge ke upar rahega */
 .bottom-bar {
     position: fixed;
-    bottom: 0;
+    bottom: 50px;
     left: 0;
     right: 0;
     display: grid;
@@ -499,7 +500,8 @@ body {
 .bottom-bar .call-btn { background: #1a73e8; }
 .bottom-bar .wa-btn { background: #25D366; }
 
-body { padding-bottom: 60px; }
+/* padding-bottom: 110px — content badge + bar dono ke upar rahe */
+body { padding-bottom: 110px; }
 
 /* ===== DESKTOP ===== */
 @media (min-width: 768px) {
